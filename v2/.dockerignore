@@ -1,0 +1,11 @@
+__pycache__
+.venv
+.vs
+doc
+ressources
+.*
+chatbot-cli*
+chatbot-gui*
+Dockerfile
+docker-compose*
+test_*

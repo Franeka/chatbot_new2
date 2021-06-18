@@ -1,0 +1,33 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "Wie gehts", "Ist hier jemand", "Hallo", "Guten Tag", "Was geht"],
+         "responses": ["Hallo", "Gut Dich wieder zu sehen", "Hey, wie kann ich helfen"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["bye", "Sehe Dich später", "Tschö", "ich bin weg", "Schönen Tag"],
+         "responses": ["Schade dass Du gehst :(", "wir reden später", "Bye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["wie alt", "wie alt ist Jörg", "Wie alt bist Du", "Wie ist Dein Alter", "Alter"],
+         "responses": ["Ich bin 51!", "51 Jahre jung!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["Wie ist Dein Name", "Wie soll ich Dich nennen", "Wie soll ich Dich rufen"],
+         "responses": ["Du kannst mich Jörg nennen.", "Ich bin Jörg!", "Ich bin wundebar."],
+         "context_set": ""
+        },
+        {"tag": "shop",
+         "patterns": ["Ich würde gern was kaufen", "Was habt ihr", "was empfiehlst Du", "kann ich was zu Essen haben"],
+         "responses": ["Wir haben Schokoladenkekse for 2€!", "Heute gibt es Kekse!"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["wann habt ihr geöffnet", "Wann ist die Öffnungszeit", "Öffnungszeiten"],
+         "responses": ["Wir arbeiten von 8 bis 15 Uhr Montags bis Freitags!"],
+         "context_set": ""
+        }
+   ]
+}

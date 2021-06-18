@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "/bin/python3",
+    "python.analysis.extraPaths": ["v2", "v3"]
+}
